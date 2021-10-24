@@ -1,0 +1,58 @@
+<html>
+{% load static %}
+    <head><title>
+        ram creations
+    </title>
+    <link rel="stylesheet" href="{% static 'css/index.css' %}" >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+    <style type="text/css">
+    body{
+       background-image: url("{% static 'image/bluestar.gif' %}");
+       background-size: cover;
+    }
+    </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown link
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        <div class="container">
+         <p>
+            <img src="{% static 'image/mroffical.png' %}" alt="my image" width="180" height="180" title="logo"><br><br>
+            <i id="name">RAM</i><br><br>
+            <button ><a href="https://www.youtube.com/" target="_blank" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">youtube</a><br><br><br>
+            <a class="btn btn-primary btn-lg" href="https://www.instragram.com/" target="_blank">instragram</a><br><br><br>
+            <a class="btn btn-primary btn-lg" href="https://www.facebook.com/" target="_blank">facebook</a></p></button>
+
+        </div>
+    </body>
+</html>
